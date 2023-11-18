@@ -69,6 +69,9 @@ cat("Mr Brownlow is on average making $",central$mean," over the course of the e
 cat("95% Conficence Interval: Low:$",central$mean - 2*central$sd,"- High $", central$mean + 2*central$sd)
 ```
 
+## Answer:  We can say that Mr. Brownlows is making an average of `r profit$mean` with a standard deviation of `r profit$sd`. 
+
+
 
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
 
