@@ -61,6 +61,15 @@ print(profit$mean+2*profit$sd)
 ```
 
 
+```{r}
+central <- favstats(teachers)
+
+cat("Mr Brownlow is on average making $",central$mean," over the course of the experiemnt.\n")
+
+cat("95% Conficence Interval: Low:$",central$mean - 2*central$sd,"- High $", central$mean + 2*central$sd)
+```
+
+
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
 
 
